@@ -111,5 +111,5 @@ func (l *Logger) printf(header, format string, v ...interface{}) {
 }
 
 func (l *Logger) SetColor(b bool) {
-	l.ColorFlag = b
+	l.hasColor = b
 }
